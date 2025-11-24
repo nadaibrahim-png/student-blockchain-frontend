@@ -1,0 +1,14 @@
+:root{
+  --bg: #f7f8fb;
+  --card: #ffffff;
+  --muted: #666;
+}
+body{ margin:0; font-family: Inter, system-ui, Arial, sans-serif; background: var(--bg); }
+.app-root{ padding:32px; }
+.container{ max-width:980px; margin:0 auto }
+.card{ background: var(--card); padding:16px; border-radius:10px; box-shadow: 0 6px 20px rgba(20,20,50,0.04); }
+.header{ display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.grid{ display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+.btn{ padding:8px 12px; border-radius:8px; background:#2563eb; color:white; border:none; cursor:pointer }
+.input{ width:100%; padding:8px; border-radius:8px; border:1px solid #e6e9ef }
+.small{ font-size:13px; color:var(--muted) }
